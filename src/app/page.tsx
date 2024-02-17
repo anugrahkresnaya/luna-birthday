@@ -99,7 +99,7 @@ export default function Home() {
               <div>
                 <button 
                   onClick={handleNext}
-                  className="bg-purple-900 p-4 rounded-xl text-white mb-4 max-2xl:text-black"
+                  className="bg-purple-900 p-4 rounded-xl text-white mb-4"
                 >
                   Play Music
                 </button>
