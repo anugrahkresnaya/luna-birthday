@@ -47,7 +47,7 @@ const BirthdayMessages: React.FC = () => {
 
   useEffect(() => {
     // Check if the current message index is 1 and trigger confetti shooting
-    if (currentMessageIndex === 1) {
+    if (currentMessageIndex === 19) {
       conductor?.shoot();
     }
   }, [currentMessageIndex, conductor]);
