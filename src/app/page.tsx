@@ -7,7 +7,7 @@ import kaze11 from '../../public/png_dc_kaze-11.png'
 import { AnimatePresence, motion } from 'framer-motion'
 import BirthdayMessages from "@/components/birthdayMessages";
 import { useState } from "react";
-import music from '../../public/music.mp3'
+import music from '@/music/music.mp3'
 import Realistic from 'react-canvas-confetti/dist/presets/realistic'
 import { TConductorInstance } from "react-canvas-confetti/dist/types";
 
