@@ -86,7 +86,7 @@ export default function Home() {
                 transition={{ duration: 2 }}
                 className="absolute z-10 bottom-0 left-0 overflow-hidden"
               >
-                <Image src={balloon} width={500} height={500} alt='balloon' />
+                <Image src={balloon} width={500} height={500} alt='balloon' className="max-2xl:w-[300px]" />
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, y: 500 }}
@@ -94,12 +94,12 @@ export default function Home() {
                 transition={{ duration: 2 }}
                 className="absolute z-10 bottom-0 right-0 overflow-hidden"
               >
-                <Image src={balloon} width={500} height={500} alt='balloon' />
+                <Image src={balloon} width={500} height={500} alt='balloon' className="max-2xl:w-[300px]"/>
               </motion.div>
               <div>
                 <button 
                   onClick={handleNext}
-                  className="bg-purple-900 p-4 rounded-xl text-white mb-4"
+                  className="bg-purple-900 p-4 rounded-xl text-white mb-4 max-2xl:text-black"
                 >
                   Play Music
                 </button>
@@ -114,10 +114,10 @@ export default function Home() {
               <Image src={hbdBanner} width={600} height={600} alt="hbd banner" />
             </div>
             <div className="absolute z-10 bottom-0 left-0 overflow-hidden">
-              <Image src={balloon} width={500} height={500} alt='balloon' />
+              <Image src={balloon} width={500} height={500} alt='balloon' className="max-2xl:w-[300px]" />
             </div>
             <div className="absolute z-10 bottom-0 right-0 overflow-hidden">
-              <Image src={balloon} width={500} height={500} alt='balloon' />
+              <Image src={balloon} width={500} height={500} alt='balloon' className="max-2xl:w-[300px]" />
             </div>
             <div>
               <button 
@@ -141,7 +141,7 @@ export default function Home() {
               transition={{ duration: 2 }}
               className="flex flex-row items-end"
             >
-              <Image src={cake} width={400} height={400} alt="birthday cake" />
+              <Image src={cake} width={400} height={400} alt="birthday cake" className="max-2xl:w-[300px]" />
               <motion.div
                 initial={{ opacity: 1, x: 0 }}
                 animate={{ opacity: 0, x: 0 }}
@@ -157,17 +157,17 @@ export default function Home() {
                     animate={{ opacity: 0 }}
                     transition={{ duration: 2, delay: 3 }}  // Adjust the delay as needed
                   >
-                    <Image src={kaze11} width={250} height={250} alt='kaze_11' />
+                    <Image src={kaze11} width={250} height={250} alt='kaze_11' className="max-2xl:w-[300px]" />
                   </motion.div>
                   <h1 className="text-white text-center">misi naro kue</h1>
                 </motion.div>
               </motion.div>
             </motion.div>
             <div className="absolute z-10 bottom-0 left-0 overflow-hidden">
-              <Image src={balloon} width={500} height={500} alt='balloon' />
+              <Image src={balloon} width={500} height={500} alt='balloon' className="max-2xl:w-[300px]" />
             </div>
             <div className="absolute z-10 bottom-0 right-0 overflow-hidden">
-              <Image src={balloon} width={500} height={500} alt='balloon' />
+              <Image src={balloon} width={500} height={500} alt='balloon' className="max-2xl:w-[300px]" />
             </div>
             <div>
               <button 
@@ -190,13 +190,13 @@ export default function Home() {
               <Realistic onInit={onInit} />
             </div>
             <div className="mb-4">
-              <Image src={cake} width={400} height={400} alt="birthday cake" />
+              <Image src={cake} width={400} height={400} alt="birthday cake" className="max-2xl:w-[300px]" />
             </div>
             <div className="absolute z-10 bottom-0 left-0 overflow-hidden">
-              <Image src={balloon} width={500} height={500} alt='balloon' />
+              <Image src={balloon} width={500} height={500} alt='balloon' className="max-2xl:w-[300px]" />
             </div>
             <div className="absolute z-10 bottom-0 right-0 overflow-hidden">
-              <Image src={balloon} width={500} height={500} alt='balloon' />
+              <Image src={balloon} width={500} height={500} alt='balloon' className="max-2xl:w-[300px]" />
             </div>
             <div>
               <button 
